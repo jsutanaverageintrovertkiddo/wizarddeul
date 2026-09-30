@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+body {
+  font-family: 'Lora', serif;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-cinzel-semibold {
+  font-family: 'Cinzel', serif;
+  font-weight: 600;
+}
+
+.bg-board::before {
+  /* Use ::before to apply opacity to background only */
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: var(--bg-image);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
+  z-index: -1;
+}
+
+.bg-menu {
+  background: radial-gradient(
+    circle,
+    rgba(235, 205, 160, 0.8),
+    rgba(100, 70, 35, 0.8)
+  );
+}
+
+.bg-modal {
+  background-color: #fef3e2;
+}
+
+.bg-panel {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+.menu-title-fs {
+  font-size: 4rem;
+}
+
+.btn-width {
+  width: 200px;
+}
+
+.fxstack-mb {
+  position: relative;
+  bottom: 25px;
+}
+
+.fxstack-mt {
+  position: relative;
+  top: 25px;
+}
+
+.fxstack-width {
+  max-width: 290px;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.levelfx-img {
+  height: 150px;
+  object-fit: cover;
+}
+
+.pstats-icon {
+  width: 36px;
+  height: 36px;
+}
+
+.pstats-text {
+  font-size: 1.1rem;
+}
+
+.pstats-panel-width {
+  min-width: 75px;
+}
+
+.gstats-panel-width {
+  min-width: 140px;
+}
+
+.pwr-li {
+  cursor: pointer;
+}
+
+.pwr-text {
+  margin-left: 5px;
+}
+
+.gameover-text {
+  font-size: 1.1rem;
+}
+
+/* Override Bootstrap border with custom colors. */
+
+.pwr-border-pyro {
+  border-color: #b22222 !important;
+}
+
+.pwr-border-cryo {
+  border-color: #add8e6 !important;
+}
+
+.pwr-border-psammo {
+  border-color: #d2b48c !important;
+}
+
+.pwr-border-dentro {
+  border-color: #2e8b57 !important;
+}
+
+.pwr-border-hydro {
+  border-color: #024873 !important;
+}
+
+.pwr-border-erebo {
+  border-color: #7d3fbd !important;
+}
+
+.pwr-text-pyro {
+  color: #b22222;
+}
+
+.pwr-text-cryo {
+  color: #add8e6;
+}
+
+.pwr-text-psammo {
+  color: #d2b48c;
+}
+
+.pwr-text-dentro {
+  color: #2e8b57;
+}
+
+.pwr-text-hydro {
+  color: #024873;
+}
+
+.pwr-text-erebo {
+  color: #7d3fbd;
+}
+
+/* Styling static images over player avatars for level effects. */
+
+.overlay-ice {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 80%;
+  opacity: 0.8;
+}
+
+/* Styling animated GIFs over player avatars for card effects. */
+
+.vfx-fireball {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  transform: scale(2) translateY(10px);
+}
+
+.vfx-freeze {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  transform: scale(1.8) translateX(-5px) translateY(15px);
+}
+
+.vfx-thunder {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 65%;
+}
+
+.vfx-heal {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 100%;
+}
+
+.vfx-sword {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 100%;
+}
+
+.vfx-shield {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  transform: scale(1.4);
+}
+
+.vfx-ghost-bounce {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  transform: scale(1.3);
+}
+
+.vfx-skull {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 100%;
+}
+
+.vfx-hammer {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  transform: scale(1.1);
+}
+
+.vfx-blood-strike {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  transform: scale(1.3);
+}
+
+.vfx-blood-burst {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 100%;
+}
+
+.vfx-star-bounce {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  transform: scale(1.2);
+}
+
+.vfx-star-strike {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  transform: scale(1.3);
+}
+
+.vfx-star-impact {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  transform: scale(1.3);
+}
+
+.vfx-slime-swirl {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 100%;
+}
+
+.vfx-slime-strike {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 100%;
+}
+
+.vfx-water-explode {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 100%;
+}
+
+.vfx-blood-cross-strike {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  transform: scale(1.2);
+}
+
+.vfx-slime-splash {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 100%;
+  left: 10px;
+  bottom: 10px;
+}

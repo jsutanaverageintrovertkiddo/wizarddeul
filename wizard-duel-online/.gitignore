@@ -1,0 +1,10 @@
+node_modules/
+dist/
+*.log
+*.err
+.vite/
+.DS_Store
+
+# Local test artifacts
+scripts/*.png
+battle-*.png
