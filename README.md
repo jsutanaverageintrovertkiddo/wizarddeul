@@ -46,9 +46,6 @@ npm run build
 With the online server running, the multiplayer smoke, sync, and win tests can
 be run with `npm run test:smoke`, `npm run test:sync`, and `npm run test:win`.
 
-## Credits and license
 
-The original game, art, and design are credited in
-[`wizard-duel/CREDITS.md`](./wizard-duel/CREDITS.md). The original project is
-licensed under MIT; see [`wizard-duel/LICENSE`](./wizard-duel/LICENSE) and
-the online project's README for details.
+
+
