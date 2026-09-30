@@ -1,15 +1,7 @@
 # Wizard Duel
 
 This repository contains two versions of **Wizard Duel**, a turn-based wizard
-card game:
-
-- [`wizard-duel/`](./wizard-duel/) — the original single-player game against
-  computer-controlled opponents.
-- [`wizard-duel-online/`](./wizard-duel-online/) — a two-player online version
-  with room codes, synchronized matches, and a Node.js game server.
-
-The online edition builds on the original game's engine, art, and visual design.
-See each project folder's README for project-specific details.
+card game
 
 ## Requirements
 
