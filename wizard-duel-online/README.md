@@ -1,7 +1,6 @@
 # Wizard Duel — 2-Player Online Multiplayer
 
-A real, playable **2-player online** version of
-[ruichen199801/wizard-duel](https://github.com/ruichen199801/wizard-duel).
+A real, playable **2-player online**
 
 The UI, arena, wizard presentation, cards, spells, animations, health bars,
 turn flow and win/lose screens are taken from the reference project so the game
